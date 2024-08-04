@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/reciever_chat_bubble"
+        android:paddingLeft="20dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/reciever_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="200dp"
+                android:minWidth="35dp"
+                android:padding="5dp"
+                android:text="hello"
+android:textSize="13sp"
+                android:textColor="#D5000000"></TextView>
+
+            <TextView
+                android:id="@+id/reciever_msg_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/reciever_msg"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="-20dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/reciever_msg"
+                android:padding="3dp"
+                android:text="hello"
+                android:textColor="#79000000"
+                android:textSize="10dp"></TextView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:id="@+id/appbar">
+        <androidx.appcompat.widget.Toolbar
+            android:background="@drawable/navigation_background"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:elevation="5dp"
+            android:layout_marginBottom="6dp"
+
+            >
+            <LinearLayout
+                android:id="@+id/tool_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <!--        <EditText-->
+                <!--            android:id="@+id/editTextTextPersonName"-->
+                <!--            android:layout_width="wrap_content"-->
+                <!--            android:layout_height="40dp"-->
+                <!--            android:layout_gravity="center"-->
+                <!--            android:layout_marginLeft="10dp"-->
+                <!--            android:layout_marginRight="10dp"-->
+                <!--            android:layout_weight="1"-->
+                <!--            android:background="@drawable/search"-->
+                <!--            android:drawableLeft="@drawable/baseline_search_24"-->
+                <!--            android:drawablePadding="10dp"-->
+                <!--            android:ems="10"-->
+                <!--            android:hint="Search here"-->
+                <!--            android:inputType="textPersonName"-->
+                <!--            android:paddingLeft="10dp"-->
+                <!--            android:paddingRight="10dp"-->
+                <!--            android:textColorHint="#85000000" />-->
+                <ImageView
+                    android:id="@+id/back_btn_for_activity"
+
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="6dp"
+                    android:padding="5dp"
+                    android:src="@drawable/baseline_arrow_back_24" />
+
+                <TextView
+                    android:id="@+id/activity_toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    android:text=""
+                    android:layout_marginRight="50dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/activity_toolbar_noti"-->
+
+<!--                    android:layout_width="35dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginRight="6dp"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:src="@drawable/ic_notifications_black_24dp" />-->
+
+            </LinearLayout>
+
+
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</LinearLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.add_Task.TaskFragment" >
+
+
+<!--    <com.google.android.material.appbar.AppBarLayout-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:background="#BD2CD6"-->
+<!--        android:minHeight="?attr/actionBarSize"-->
+<!--        android:theme="?attr/actionBarTheme">-->
+
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/tool_layout"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="70dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                &lt;!&ndash;        <EditText&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:id="@+id/editTextTextPersonName"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:layout_height="40dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:layout_gravity="center"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:layout_marginLeft="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:layout_marginRight="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:layout_weight="1"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:background="@drawable/search"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:drawableLeft="@drawable/baseline_search_24"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:drawablePadding="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:ems="10"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:hint="Search here"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:inputType="textPersonName"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:paddingLeft="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:paddingRight="10dp"&ndash;&gt;-->
+<!--                &lt;!&ndash;            android:textColorHint="#85000000" />&ndash;&gt;-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView5"-->
+<!--                    android:layout_width="35dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="-10dp"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:src="@drawable/baseline_dehaze_24" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView8"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="Add new task"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView3"-->
+<!--                    android:layout_width="35dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginRight="6dp"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:src="@drawable/ic_notifications_black_24dp" />-->
+
+<!--            </LinearLayout>-->
+
+
+<!--        </androidx.appcompat.widget.Toolbar>-->
+
+<!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Task title"
+            android:textColor="#070707" />
+
+        <EditText
+            android:id="@+id/task_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/task_edit_text"
+            android:ems="10"
+            android:hint="eg.I need a"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHint="#6F000000"
+
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Task discription"
+            android:textColor="#070707" />
+
+        <EditText
+            android:id="@+id/task_disc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/task_edit_text"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="eg.pipe fitting"
+            android:inputType="textMultiLine"
+            android:minHeight="150dp"
+            android:padding="10dp"
+            android:paddingRight="10dp"
+
+            android:textColorHint="#6F000000"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Task location"
+            android:textColor="#070707" />
+
+        <EditText
+            android:id="@+id/task_adress"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/task_edit_text"
+            android:ems="10"
+            android:hint="eg.Sargodha,Punjab,Pakistan"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHint="#6F000000"
+
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Budget"
+            android:textColor="#070707" />
+
+        <EditText
+            android:id="@+id/task_budget"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/task_edit_text"
+            android:ems="10"
+            android:hint="Set your task budget"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHint="#6F000000"
+
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/task_upload_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple"
+
+            android:text="Upload task"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            app:cornerRadius="6dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

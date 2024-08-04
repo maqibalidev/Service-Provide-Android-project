@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:paddingTop="30dp"
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/baseline_check_circle_24" />
+</LinearLayout>
+
+
+
+
+<!--<com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--android:id="@+id/nav_view"-->
+
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:background="@drawable/navigation_background"-->
+<!--android:theme="@style/Bottom_nav"-->
+<!--app:itemActiveIndicatorStyle="@style/Bottom_nav"-->
+<!--android:layout_alignParentBottom="true"-->
+<!--app:menu="@menu/bottom_nav_menu" />-->
+
+<!--<fragment-->
+<!--android:id="@+id/nav_host_fragment_activity_navigation_bottom"-->
+<!--android:name="androidx.navigation.fragment.NavHostFragment"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:layout_marginBottom="54dp"-->
+<!--app:defaultNavHost="true"-->
+<!--app:layout_constraintBottom_toTopOf="@id/nav_view"-->
+
+<!--app:navGraph="@navigation/mobile_navigation" />-->
+
+<!--<androidx.drawerlayout.widget.DrawerLayout-->
+<!--android:id="@+id/drawer_layout"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="match_parent"-->
+
+<!--android:fitsSystemWindows="true"-->
+<!--tools:ignore="MissingConstraints"-->
+<!--tools:openDrawer="start">-->
+
+
+<!--<com.google.android.material.navigation.NavigationView-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_gravity="start"-->
+<!--    android:background="#211A2C"-->
+<!--    android:fitsSystemWindows="true"-->
+<!--    app:headerLayout="@layout/header"-->
+<!--    app:itemIconTint="@color/white"-->
+<!--    app:itemTextColor="#99CDCBCB"-->
+<!--    app:menu="@menu/bottom_nav_menu"></com.google.android.material.navigation.NavigationView>-->
+<!--</androidx.drawerlayout.widget.DrawerLayout>-->

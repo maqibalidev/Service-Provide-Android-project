@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical"
+    tools:context=".Bank_details">
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" ></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/card_view_background"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView16"
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:text="Select account"
+            android:textColor="#D7000000"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_purple_stroke"
+android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/visa"
+
+
+                ></ImageView>
+
+
+            <TextView
+                android:id="@+id/debit_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:ems="10"
+                android:gravity="center|start"
+                android:paddingLeft="20dp"
+                android:paddingRight="15dp"
+                android:text="Credit / Debit Card"
+                android:textColor="#D2000000"
+
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_purple_stroke"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/jazz"
+
+
+                ></ImageView>
+
+
+            <TextView
+                android:id="@+id/jazz_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:ems="10"
+                android:gravity="center|start"
+                android:text="Jazz cash"
+                android:textColor="#D2000000"
+
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:paddingRight="15dp"
+
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_purple_stroke"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/esay_paisa"
+
+
+                ></ImageView>
+
+
+            <TextView
+                android:id="@+id/easypaisa_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:ems="10"
+                android:gravity="center|start"
+                android:text="Easypaisa"
+                android:textColor="#D2000000"
+
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:paddingRight="15dp"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

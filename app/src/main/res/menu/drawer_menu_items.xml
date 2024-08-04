@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer_service_provider"
+        android:icon="@drawable/service"
+        android:title="Service providerse"
+   />
+
+    <item
+        android:id="@+id/drawer_account_varification"
+        android:icon="@drawable/check2"
+        android:title="Account varification" />
+
+    <item
+        android:id="@+id/drawer_term_contition"
+        android:icon="@drawable/baseline_featured_play_list_24"
+        android:title="Terms and conditions" />
+
+    <item
+        android:id="@+id/drawer_privacy_policy"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Privacy policy" />
+
+    <item
+        android:id="@+id/drawer_settings"
+        android:icon="@drawable/baseline_settings_24"
+
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/drawer_privacy_logout"
+        android:icon="@drawable/baseline_logout_24"
+
+        android:title="Logout" />
+</menu>

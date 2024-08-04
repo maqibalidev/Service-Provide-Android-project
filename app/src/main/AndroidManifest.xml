@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tamir_project"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB8Zp_xB5VjC-sgVqsPeLxOyxRnfvqCasE"/>
+
+
+        <activity
+            android:name=".MapsActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_maps2" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Set_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Varification"
+            android:exported="true" />
+        <activity
+            android:name=".Fixed_labour"
+            android:exported="false" />
+        <activity
+            android:name=".Chatting"
+            android:exported="false" />
+        <activity
+            android:name=".Privacy_policy"
+            android:exported="false" />
+        <activity
+            android:name=".Terms_and_conditions"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_us"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Bank_details_2"
+            android:exported="false" />
+        <activity
+            android:name=".Bank_details"
+            android:exported="false" />
+        <activity
+            android:name=".Notifications"
+            android:exported="false" />
+        <activity
+            android:name=".Task_details"
+            android:exported="false" />
+        <activity
+            android:name=".Mytask"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_profile"
+            android:exported="false"
+            android:theme="@style/activities" />
+        <activity
+            android:name=".Worker_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Navigation_bottom"
+            android:exported="true"
+            android:label="@string/title_activity_navigation_bottom"
+            android:theme="@style/navigation" />
+        <activity
+            android:name=".Set_Password"
+            android:exported="false"
+            android:theme="@style/Login" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:theme="@style/Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

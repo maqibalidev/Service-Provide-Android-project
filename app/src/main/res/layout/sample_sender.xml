@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:background="@drawable/sender_chat_bubble"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/sender_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="200dp"
+                android:maxHeight="400dp"
+                android:minWidth="35dp"
+                android:textSize="13sp"
+                android:padding="5dp"
+                android:text="hellodsadadadsasdadad
+hellodsadadadsasdadad hellodsadadadsasdadadsaddadasdadad hellodsadadadsasdadad
+"
+
+                android:textColor="#D5000000"></TextView>
+
+            <TextView
+                android:id="@+id/sender_msg_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sender_msg"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/sender_msg"
+                android:padding="3dp"
+                android:text="hello"
+                android:textColor="#79000000"
+                android:textSize="10dp"></TextView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+</RelativeLayout>
+
+
